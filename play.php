@@ -4,7 +4,7 @@
   class Play {
 
     public static function start() {
-      $game = new GameOfLife(140, 30);
+      $game = new GameOfLife(150, 40);
       echo $game->render();
 
       while (true) {
